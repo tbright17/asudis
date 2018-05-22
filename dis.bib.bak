@@ -124,3 +124,111 @@
   pages={41--66},
   year={2007}
 }
+@article{ordin2015acquisition,
+  title={Acquisition of speech rhythm in a second language by learners with rhythmically different native languages},
+  author={Ordin, Mikhail and Polyanskaya, Leona},
+  journal={The Journal of the Acoustical Society of America},
+  volume={138},
+  number={2},
+  pages={533--544},
+  year={2015},
+  publisher={ASA}
+}
+@inbook{moravcsik_2012, place={Cambridge}, series={Cambridge Introductions to Language and Linguistics}, title={What is language typology?}, DOI={10.1017/CBO9780511978876.003}, booktitle={Introducing Language Typology}, publisher={Cambridge University Press}, author={Moravcsik, Edith A.}, year={2012}, pages={1¨C24}, collection={Cambridge Introductions to Language and Linguistics}}
+
+@article{bickel2001typology,
+  title={What is typology?¡ªa short note},
+  author={Bickel, Balthasar},
+  journal={unpublished paper, University of Leipzig},
+  year={2001}
+}
+@book{moravcsik2012introducing,
+  title={Introducing language typology},
+  author={Moravcsik, Edith A},
+  year={2012},
+  publisher={Cambridge University Press}
+}
+@article{lehrer1992theory,
+  title={A theory of vocabulary structure: Retrospectives and prospectives},
+  author={Lehrer, Adrienne},
+  journal={Thirty years of linguistic evolution},
+  pages={243--256},
+  year={1992}
+}
+@article{tds_article,
+author = {Monachesi, P and Dimitriadis, Alexis and Goedemans, R.W.N. and Mineur, A.C. and Pinto, Manuela},
+year = {2018},
+month = {05},
+pages = {},
+title = {The Typological Database System}
+}
+@article{donohue2013world,
+  title={World phonotactics database. Department of Linguistics, The Australian National University},
+  author={Donohue, Mark and Hetherington, Rebecca and McElvenny, James and Dawson, Virginia},
+  journal={World phonotactics database. Department of Linguistics, Australian National University},
+  year={2013}
+}
+@article{maddieson1992ucla,
+  title={UCLA Phonological Segment Inventory Database, version 1.1},
+  author={Maddieson, Ian},
+  journal={Los Angeles: Dept. of Linguistics, UCLA},
+  year={1992}
+}
+@article{littel2016uriel,
+  title={URIEL Typological database},
+  author={Littel, Patrick and Mortensen, David R and Levin, Lori},
+  journal={Pittsburgh: CMU},
+  year={2016}
+}
+@book{phoible,
+  address   = {Leipzig},
+  editor    = {Steven Moran and Daniel McCloy and Richard Wright},
+  publisher = {Max Planck Institute for Evolutionary Anthropology},
+  title     = {PHOIBLE Online},
+  url       = {http://phoible.org/},
+  year      = {2014}
+}
+@article{gil1986prosodic,
+  title={A prosodic typology of language},
+  author={Gil, David},
+  journal={Folia Linguistica},
+  volume={20},
+  number={1-2},
+  pages={165--232},
+  year={1986},
+  publisher={Walter de Gruyter, Berlin/New York}
+}
+@article{parmenter1933experimental,
+  title={An experimental study of accent in French and English},
+  author={Parmenter, Clarence E and Blanc, Agnes Victoire},
+  journal={Publications of the Modern Language Association of America},
+  pages={598--607},
+  year={1933},
+  publisher={JSTOR}
+}
+@article{jongman1989acoustic,
+  title={The acoustic vowel space of Modern Greek and German},
+  author={Jongman, Allard and Fourakis, Marios and Sereno, Joan A},
+  journal={Language and speech},
+  volume={32},
+  number={3},
+  pages={221--248},
+  year={1989},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+@article{bradlow1995comparative,
+  title={A comparative acoustic study of English and Spanish vowels},
+  author={Bradlow, Ann R},
+  journal={The Journal of the Acoustical Society of America},
+  volume={97},
+  number={3},
+  pages={1916--1924},
+  year={1995},
+  publisher={ASA}
+}
+@inproceedings{al2005does,
+  title={Does vowel space size depend on language vowel inventories? Evidence from two Arabic dialects and French},
+  author={Al-Tamimi, Jalal-Eddin and Ferragne, Emmanuel},
+  booktitle={Ninth European Conference on Speech Communication and Technology},
+  year={2005}
+}

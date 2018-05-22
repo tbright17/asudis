@@ -1,0 +1,31 @@
+\chapter{General Background}
+\label{literature}
+
+\section{Differential Analysis of Languages}
+
+Language is a system that consists of the development, acquisition, maintenance and use of complex systems of communication, particularly the human ability to do so; and a language is any specific example of such a system. Estimates of the number of human languages in the world vary between 5,000 and 7,000. Languages as communication tools are different in many ways. Recall that when you first learn a second language (L2), the alphabet or words in that language looks so strange, especially for those languages using different sets of characters (for example Chinese and English). You may regard those words as a sequence of graphs without any meanings. Also, when you first listen to a sentence in the L2 or two people talking in L2, the sound waves are just noise to you. However, you are still aware that those sentences either in text or sound format are conveying specific information in a different way from your own language. How languages are different and where do those differences come from?
+
+Language (or linguistic) typology is the science that studies ``similarities and differences among languages that do not stem from shared genetic relationship, language contact, or shared environmental conditions'' \citep{moravcsik_2012}. The goal of language typology is to describe and explain the common properties and structural diversity of the world's languages and how those properties generalize in cross-linguistic case \citep{bickel2001typology}. This discipline includes several subfields, depending on the ways languages are grouped into same class. An introductory categorization is provided in \citep{moravcsik2012introducing}:
+
+\begin{enumerate}
+\item Lexical typology: deals with characteristic ways in which language packages semantic material into words. For example, English uses different words for ``foot''/``leg'' and ``finger''/``toe'' while languages like Japanese and Russian use one word to represent ``foot''/``leg'' (``ashi'' in Japanese and ``noga'' in Russian) and ``finger''/``toe'' (``yubi'' in Japanese and ``palec'' in Russian).
+\item Syntactic typology: deals with characteristic ways in which language packages words into sentences syntactically. For example, according to subject-verb-object positioning, languages can be grouped into different sets: SOV (such as French, German, Spanish and Chinese), SVO (such as English and Chinese) and so on, where the abbreviation represents the order of subject(S), verb(V) and object(O).
+\item Morphological typology: deals with characteristics ways in which language forms words by combining morphemes. For example, morphological typology categorize languages into analytic languages and synthetic languages. Analytic languages, including Chinese and Vietnamese, contain very little inflection (inflection refers to ``the modification of a word to express different grammatical categories such as tense, case, voice, aspect, person, number, gender, and mood''), instead relying on features like word order and auxiliary words to convey meaning while synthetic languages, including most Indo-European languages, form words by affixing a given number of dependent morphemes to a root morpheme and word order is less important for synthetic languages.
+\item Phonological typology: dealing with characteristics ways in which sounds are distributed across languages and phonological phenomena such as phoneme inventories, syllable structure, phonological alternations, stree/tone/intonation, prosodic morphology and so on. For example, in terms of consonant-vowel ratio, English has relatively is low and Russian is relatively high. In terms of syllable structure, English is relatively complex while Mandarin is relatively simple \citep{wals}.
+\end{enumerate}
+
+As introduced in Chapter \ref{introduction}, the current study focuses on phonological patterns of L1 and L2 and how they affect the phonological patterns of accented speech. The phonological difference among different languages will be introduced in this section. There are several data sources for language typology: UCLA Phonological Segment Inventory Database \citep{maddieson1992ucla}, Word Atlas of Language Structures (WALS) \citep{wals}, URIEL Typological Database \citep{littel2016uriel}, PHOIBLE \citep{phoible}, to name a few. Different databases have different data sources and language samples. Here, the features provided by WALS is used to illustrate the phonological difference among several languages for the reason that WALS provides simple ways to visualize and download the data. Those languages will be the target L1s in later sections of this dissertation. 
+
+\begin{figure}[h]
+\centering
+\captionsetup{justification=centering}
+\includegraphics[width = 0.8\linewidth]{figures/WALS_example.pdf}
+\caption{Consonant-vowel ratio across sampled languages by WALS. Different colors represent different level of consonant-vowel ratio: blue for low level, light blue for moderately low level, white for average level, magenta for moderately high level and red for high level.}
+\label{fig:wals_example}
+\end{figure}
+
+First, in figure \ref{fig:wals_example}, the consonant-vowel ratio is used as an example of how phonological patterns are different across world's languages. Higher ratio means there are more consonants and less vowels in that language while lower ratio means the opposite. Take some commonly used languages as examples: English, German and French all have low ratio; Spanish, Persian and Mandarin have average ratio; Russian has high ratio.
+
+Next, it is clearer to do differential analysis of different languages with phonological patterns and to illustrate the distance among different languages on phonological feature space. To achieve this, several phonological features pre-summarized by WALS are selected. Those features are categorized into phonetic features and rhythmic features which respectively represent language phonological patterns on phonetic space and rhythm space. Table includes a simple description of those features.
+
+https://cdstar.shh.mpg.de/bitstreams/EAEA0-7269-77E5-3E10-0/wals_language.csv.zip
