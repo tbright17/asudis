@@ -571,7 +571,7 @@ title = {The Typological Database System}
   publisher={Cam-bridge: Cambridge University Press}
 }
 @article{deterding2006pronunciation,
-  title={The pronunciation of English by speakers from China},
+  title={? The pronunciation of English by speakers from China},
   author={Deterding, David},
   journal={English World-Wide},
   volume={27},
@@ -1058,24 +1058,4 @@ title = {The Typological Database System}
   author={Kawase, Saya and Kim, Jeesun and Davis, Chris},
   journal={Proceeding of Speech Prosody 2016},
   year={2016}
-}
-@article{eckman1977markedness,
-  title={Markedness and the contrastive analysis hypothesis},
-  author={Eckman, Fred R},
-  journal={Language learning},
-  volume={27},
-  number={2},
-  pages={315--330},
-  year={1977},
-  publisher={Wiley Online Library}
-}
-@article{white2007calibrating,
-  title={Calibrating rhythm: First language and second language studies},
-  author={White, Laurence and Mattys, Sven L},
-  journal={Journal of Phonetics},
-  volume={35},
-  number={4},
-  pages={501--522},
-  year={2007},
-  publisher={Elsevier}
 }

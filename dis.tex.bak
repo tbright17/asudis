@@ -3,7 +3,7 @@
 \usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{afterpage}
-\usepackage{graphicx, caption, eps2pdf}
+\usepackage{graphicx, caption, epstopdf}
 \usepackage{amsmath,amssymb,amsbsy}
 \usepackage{dcolumn,array}
 \usepackage{tocloft}
