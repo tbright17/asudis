@@ -1,0 +1,6 @@
+\chapter{L1's effect on phonetic properties of accented speech}
+\label{l1_seg}
+
+\section{Introduction}
+
+This section will investigate the statistical relationship between the phonetic acoustic measurements extracted from accented American English speech (independent variables) and the perceived accetendenss score provided by native American English speakers (dependent variables). Two sets of features will be used as independent variables: one is the pronunciation score based features extracted only using L2 acoustic model and the other one is the pronunciation score based features extracted using both L1 and L2 acoustic model. This corresponds to the data analysis 1 in figure \ref{fig:method_diagram} using only L2 normalized segmental acoustic measurements and the combination of  both L1 and L2 normalized segmental acoustic measurements. First, correlational relationship between independent variables and dependent variables. Second, multiple regression analysis will be employed to analyze how well  

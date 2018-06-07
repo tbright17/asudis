@@ -1,5 +1,5 @@
 \documentclass[12pt,letterpaper]{report}
-\usepackage{natbib, url, tablefootnote}
+\usepackage{natbib, url, tablefootnote, tipa}
 \usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{afterpage}
@@ -76,5 +76,6 @@
 \addtocontents{toc}{APPENDIX \par}
 \appendix
 \include{appendix1}
+\include{appendix2}
 \include{vita}
 \end{document}

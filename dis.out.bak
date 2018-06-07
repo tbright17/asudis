@@ -2,8 +2,8 @@
 \BOOKMARK [-1][-]{Doc-Start}{LIST OF FIGURES}{}% 2
 \BOOKMARK [0][-]{chapter.1}{1 }{Doc-Start}% 3
 \BOOKMARK [1][-]{section.1.1}{1.1 Problem Statement}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{1.2 Significance of The Study}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.3}{1.3 Outline of The Dissertation}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{1.2 Significance of the study}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{1.3 Outline of the dissertation}{chapter.1}% 6
 \BOOKMARK [0][-]{chapter.2}{2 }{Doc-Start}% 7
 \BOOKMARK [1][-]{section.2.1}{2.1 Differential Analysis of Languages}{chapter.2}% 8
 \BOOKMARK [1][-]{section.2.2}{2.2 L2 learning theories}{chapter.2}% 9
@@ -13,5 +13,21 @@
 \BOOKMARK [1][-]{section.2.3}{2.3 Computational model of accentedness perception}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.4}{2.4 Motivation and predictions}{chapter.2}% 14
 \BOOKMARK [0][-]{chapter.3}{3 }{Doc-Start}% 15
-\BOOKMARK [-1][-]{chapter.3}{REFERENCES}{}% 16
-\BOOKMARK [0][-]{appendix.A}{A }{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.1}{3.1 Introduction}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{3.2 Data collection}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Dataset selection}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Accentedness score collection}{section.3.2}% 19
+\BOOKMARK [1][-]{section.3.3}{3.3 Acoustic analysis}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 A brief introduction to ASR}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Native speech corpus}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Pronunciation score based phonetic feature extraction}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Prosodic feature extraction}{section.3.3}% 24
+\BOOKMARK [1][-]{section.3.4}{3.4 Procedure}{chapter.3}% 25
+\BOOKMARK [0][-]{chapter.4}{4 }{Doc-Start}% 26
+\BOOKMARK [0][-]{chapter.5}{5 }{Doc-Start}% 27
+\BOOKMARK [0][-]{chapter.6}{6 }{Doc-Start}% 28
+\BOOKMARK [0][-]{chapter.7}{7 }{Doc-Start}% 29
+\BOOKMARK [0][-]{chapter.8}{8 }{Doc-Start}% 30
+\BOOKMARK [-1][-]{chapter.8}{REFERENCES}{}% 31
+\BOOKMARK [0][-]{appendix.A}{A }{chapter.8}% 32
+\BOOKMARK [0][-]{appendix.B}{B }{chapter.8}% 33

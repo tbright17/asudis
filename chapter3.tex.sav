@@ -1,0 +1,109 @@
+\chapter{Methodology Overview}
+\label{sec:methodology}
+\section{Introduction}
+To answer the research questions and test the hypotheses proposed in chapter \ref{introduction}, a following methodology with 3 steps is employed:
+\begin{enumerate}
+\item Accented speech recordings collection. The very first step is to have accented speech data. Then, the accentedness score of each accented speaker needs to be collected to quantify how strong the foreign accent is for native L2 speakers.
+\item Measurements related to perceived accentness will be extracted from the acoustic signal.This involves different feature extraction schemes because some measurements represent pronunciation characteristics and some represent prosodic characteristics. This study will extract measurements related to both L1 and L2.
+\item Statistical data analysis is to examine how the perceived accentedness scores are decided by those independent variables extracted from the acoustic signal. It includes correlational analysis between signal independent variable and accentedness scores and regression analysis between groups of independent variables and accentedness scores. This study will do regression analyses with different groups of independent variables, for example group of independent variables that are only related to L2 and group of independent variables that are related to both L1 and L2.
+\end{enumerate}
+This chapter will mainly focus on the first two parts and following chapters will introduce the details of data analysis and corresponding results.
+
+\section{Data collection}
+
+\subsection{Dataset selection}
+
+Many non-native speech datasets have been published in the literature \citep{raab2007non}. However, most of them are either not publicly available nor do not have speakers from several different L1s. To have more control on the datasets, the GMU speech accent archive (SAA) \cite{weinberger2013speech} was chosen as the data source of the speech recordings used in this dissertation. The SAA provides speech samples by speakers from over 300 different L1s. More than 2000 speakers (there are 600 native English speakers currently) read the same paragraph in English:
+
+\vspace{4pt}
+\textit{Please call Stella.  Ask her to bring these things with her from the store:  Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.  We also need a small plastic snake and a big toy frog for the kids.  She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.}
+\vspace{4pt}
+
+This paragraph was chosen because it includes all of the phonological features considered part of native English speech \citep{kunath2010wisdom}. With transcription available, it is also easy to derive fine-grained measurements on small phonological unit with computed start and end time. SAA also provides detailed information of the speaker, including age, gender, birth place, native language, English residence country, length of residence and age of English onset. The non-native speech corpus used in this study is a subset of the GMU SAA. Four foreign languages: German (9 females, 21 males), French (15 females, 15 males), Mandarin (15 females, 15 males) and Spanish (15 females, 15 males), each of which has 30 speakers. 30 native English speakers (15 females, 15 males) were also added to the set as native speakers. Those four foreign languages are selected because their distances to English in phonetic and prosodic subspace are different. The English residence country was limited to the USA and native English speakers were also born in the USA. This resulted in 150 speakers in the final dataset. The length of each speaker's recording varies in a range from 15-40 seconds. The sampling rate was reduced to 16kHz from 44kHz.
+
+
+
+\subsection{Accentedness score collection}
+
+SAA does not provide accentedness scores for their speech recordings. In order to quantify the perceived accentedness score , the best way is to ask native speakers of American English to rate the foreign speakers in the dataset. Considering the time and money cost of on-site data collection, Amazon Mechanical Turk (AMT), which is the most popular online crowdsourcing platform, will be chose to acquire the accentedness score from multiple native American English speakers. The study by \cite{kunath2010wisdom} also collect accentedness score for recordings from SAA on AMT and they reported that the collected ratings were reliable enough.
+
+The first step of the accentedness score collection is to find annotators to participate in the task and design the accentedness score scale. The current accentedness annotation task has several requirements for the annotators: 1) Born in the USA (Must be native speaker of American English) 2) Monolingual (Only speak American English) 3) Don't speak the four target foreign languages (Further make sure they do not speak any of the four foreign languages). 4) No hearing impairment (Make sure they can perceive the foreign accent). 5) At least finished 10 HITs that are approved (Make sure they have experience using the AMT). 6) Human Intelligence Task (HIT)\footnote{The annotation task on AMT is called HIT.} approval rate is over 90\% on AMT (Make sure they devote themselves in each annotation task). Only qualified raters are allowed to do the annotation. To discretize the accentedness, this study employs a four-point scale where one represents no accent/negligible accent, two represents mild accent, three represents strong accent, and four represents very strong accent. This scale has been used in previous collected datasets for example the CSLU: Foreign Accented English datasets \citep{choueiter2008empirical} and it is believed that for non-expert annotators a 4-point scale is of less amount of annotation work and higher accuracy compared to a larger scale.
+
+AMT needs an annotation protocol that clearly introduces the whole procedure to finish the annotation task. A website was designed to realize this protocol. The diagram in figure \ref{fig:amt_procedure} shows the whole procedure of the data annotation process.
+
+\begin{figure}[t]
+\centering
+\captionsetup{justification=centering}
+\includegraphics[width = 1.0\linewidth]{figures/amt_procedure.pdf}
+\caption{The four steps of the annotation webpage.}
+\label{fig:amt_procedure}
+\end{figure}
+
+\begin{enumerate}
+\item The annotators will first see a webpage (as shown in figure \ref{fig:amt_login}) asking them to create a new user or login as a return user. The user ID will be used as identifier to locate their ratings.
+\item After finishing step 1, a detailed task instruction and information will be shown to the annotators. The detail is in appendix \ref{sec:appendix1}. There is also a consent form (in appendix \ref{sec:appendix2}) for the annotators.
+\item Then, four recordings, which are with no accent, mild accent, strong accent and very strong accent respectively, are presented to the annotators for them to get familarization with the 4-point rating scale, as shown in figure \ref{fig:amt_example}. The groundtruth labels are provided by native American English speakers.
+\item At last, annotators move to the real listening task, as shown in figure \ref{fig:amt_listen}. Each annotator first listen to the recording and make a choice about the degree of perceived foreign accent and whether the annotator is confident in the response. All 150 speech recordings (including native English speech and accented speech) are randomly permuted in order. If we ask the workers on AMT to listen all of the utterances, the task will take more than 1 hour and a lot of factors will impact the quality of the collected ratings, such as worker's fatigue \citep{rzeszotarski2013inserting}. To avoid this, all the utterances are segmented to take just the first 10 seconds, resulting in 25 minutes listening time for each worker. Previous study \citep{munro1995foreign} has shown that the sentence length in the range of 7-13 seconds has little impact on the perceived accentedness. Considering the annotation time and a 2 minutes break, each worker needs to spend about 30-40 minutes for this task. Those annotators finish the task will be rewarded \$1.5.
+\end{enumerate}
+
+
+\begin{figure}[t]
+\centering
+\captionsetup{justification=centering}
+\includegraphics[width = 0.8\linewidth]{figures/webpage1.JPG}
+\caption{Annotator's login page.}
+\label{fig:amt_login}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\captionsetup{justification=centering}
+\includegraphics[width = 0.8\linewidth]{figures/webpage2.JPG}
+\caption{Example accented speech recordings with groundtruth accentedness scores.}
+\label{fig:amt_example}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\captionsetup{justification=centering}
+\includegraphics[width = 0.8\linewidth]{figures/webpage3.JPG}
+\caption{How speech samples are presented to the annotators in listening task.}
+\label{fig:amt_listen}
+\end{figure}
+
+Finally, 13 evaluators finished all the listening tasks. The average ratings of all 13 evaluators are taken as the final accentedness rating of each speaker; other studies have used the average of 10 AMT non-expert annotations in other natural language tasks \cite{snow2008cheap}. The pairwise average inter-rater correlation coefficients are shown in figure \ref{fig:pairwise_corr} for each rater, which is calculated by taking the average of the correlation coefficients of the current worker's ratings with other worker's ratings. The average inter-rater correlation coefficients (calculated as the average of all annotators' correlation with other annotators) is 0.73, which is higher enough to prove the consistency of the ratings from 13 evaluators. In figure \ref{fig0}, the histograms of the collected ratings across four different foreign languages are presented. It can be found that Mandarin speakers have the strongest accent while German speakers have the mildest accent. This is consistent with expectations considering the phonological similarity between German and English as opposed to other 3 languages. The low mean and lack of strongly-accented speakers in the German and French database also means that the variances of the accentedness ratings for these language are relatively low. This poses a challenge in the statistical modeling, which will be further examined in later chapters.
+
+\begin{figure}[t]
+\centering
+\captionsetup{justification=centering}
+\includegraphics[width = 0.8\linewidth]{figures/mean_pairwise_correlation_without_work4.eps}
+\caption{Pairwise average correlation correlation coefficients for each worker.}
+\label{fig:pairwise_corr}
+\end{figure}
+
+\begin{figure}[h]
+        \begin{minipage}[t]{0.5\linewidth}
+        \centering
+            \includegraphics[width=3in]{figures/Mandarin_hist.eps}
+        \end{minipage}%
+        \begin{minipage}[t]{0.5\linewidth}
+        \centering
+            \includegraphics[width=3in]{figures/Spanish_hist.eps}
+        \end{minipage}%
+        \\
+        \begin{minipage}[t]{0.5\linewidth}
+        \centering
+            \includegraphics[width=3in]{figures/German_hist.eps}
+        \end{minipage}%
+        \begin{minipage}[t]{0.5\linewidth}
+        \centering
+            \includegraphics[width=3in]{figures/French_hist.eps}
+        \end{minipage}%
+        \caption{Histograms of accentedness scores of different L1s.}
+        \centering
+        \label{fig0}
+     \end{figure}
+
+\section{Acoustic analysis}
+
+With the accentedness score for each speakers in the accented speech dataset collected, next step is to extract measurements from the acoustic signal to represent the foreign accent of each speaker. As mentioned in chapter \ref{introduction}, this study will analyze acoustic measurements in two subspaces: one is characterized by phonetic measurements and the other is characterized by prosodic measurements. Thus, the acoustic analysis here is also done in the two subspaces. Specifically, the pronunciation score of phonemes (including vowels and consonants) and syllables are calculated as representation of the 
