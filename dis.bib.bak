@@ -1022,11 +1022,40 @@ title = {The Typological Database System}
   year={2011},
   organization={IEEE Signal Processing Society}
 }
-@inproceedings{lin2008interlanguage,
-  title={Interlanguage rhythm in the English production of Mandarin speakers},
-  author={Lin, Hua and Wang, Qian},
-  year={2008},
-  booktitle={8th Phonetic Conference of China and the InternationalSymposium of Phonetic Frontiers}
+@inproceedings{tu2018investigating,
+  title={Investigating the role of L1 in automatic pronunciation evaluation of L2 speech},
+  author={Tu, Ming and Grabek, Anna and Liss, Julie and Berisha, Visar},
+  year={2018},
+  booktitle={Proceedings of Interspeech 2018},
+  publisher={to be published}
+}
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+@article{saeys2007review,
+  title={A review of feature selection techniques in bioinformatics},
+  author={Saeys, Yvan and Inza, I{\~n}aki and Larra{\~n}aga, Pedro},
+  journal={bioinformatics},
+  volume={23},
+  number={19},
+  pages={2507--2517},
+  year={2007},
+  publisher={Oxford University Press}
+}
+@inproceedings{mcauliffe2017montreal,
+  title={Montreal Forced Aligner: trainable text-speech alignment using Kaldi},
+  author={McAuliffe, Michael and Socolof, Michaela and Mihuc, Sarah and Wagner, Michael and Sonderegger, Morgan},
+  booktitle={Proceedings of interspeech},
+  year={2017}
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

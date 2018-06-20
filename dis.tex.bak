@@ -3,7 +3,7 @@
 \usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{afterpage}
-\usepackage{graphicx, caption, epstopdf}
+\usepackage{graphicx, caption, epstopdf, multirow,pifot}
 \usepackage{amsmath,amssymb,amsbsy}
 \usepackage{dcolumn,array}
 \usepackage{tocloft}
@@ -64,6 +64,8 @@
 \include{chapter4}
 \include{chapter5}
 \include{chapter6}
+\include{chapter7}
+\include{chapter8}
 %-----------------------back matter
 {\singlespace
 % Making the references a "part" rather than a chapter gets it indented at

@@ -1,0 +1,12 @@
+\chapter{L1's effect on prosodic properties of accented speech}
+\label{l1_supraseg}
+
+\section{Introduction}
+
+The previous chapter applies the proposed methodology for accentedness perception to pronunciation based segmental features and proves that integrating L1 pronunciation information by extracting pronunciation score of accented English speech with L1 acoustic model can improve the prediction accuracy of accentedness perception. This chapter will focus on apply the same methodology to speech prosodic features to study whether L1 prosodic patterns affect the perception of accentedness. As mentioned in chapter \ref{sec:methodology}, durational rhythmic features will be used as proxy of speech prosody. The methods and analysis of results are almost the same as chapter \ref{l1_seg}. Details will be introduced in following sections.
+
+\section{Methods}
+
+The first analysis is the correlation analysis between speech prosodic features and accentedness score averaged of 13 annotators. Similarity, the PCC is calculated between every features of the 18-dimensional feature vector language-independently. Since the feature dimension is higher than pronunciation features, here only the top-12 features with highest PCC with accentedness scores are shown for each language together with the p-values (lower p-value stands for more statistically significant correlation).
+
+Same multiple regression analysis is done here except that the number of input features is changed to 18. Downsampling is not used here since it does not help for German speakers. So  
