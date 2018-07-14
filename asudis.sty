@@ -91,11 +91,11 @@ letterpaper}%,showframe,showcrop}
     Approved \@defensemonth\ \@defenseyear\ by the\\
     Graduate Supervisory Committee:\\
     \ \\
-    \@chair,  Chair\\
-    \@memberOne\\
-    \@memberTwo\\
+    %\@chair,  Chair\\
+    \@memberOne, co-chair\\
+    \@memberTwo, co-chair\\
     \@memberThree\\
-    \@memberFour
+    %\@memberFour
   \end{center}
    \vfill
    \begin{center}
@@ -135,15 +135,15 @@ letterpaper}%,showframe,showcrop}
 %
 % define \dedicationpage
 %
-%\newcommand{\dedicationpage}[1]{
-%\clearpage\vspace*{0.5\textheight}
-%\centerline{\itshape #1}\clearpage
 \newcommand{\dedicationpage}[1]{
-\begin{center}
-   \doublespace
-   {\itshape #1}
-\end{center}
-\clearpage
+\clearpage\vspace*{0.5\textheight}
+\centerline{\itshape #1}\clearpage
+% \newcommand{\dedicationpage}[1]{
+% \begin{center}
+%    \doublespace
+%    {\itshape #1}
+% \end{center}
+% \clearpage
 }
 
 %

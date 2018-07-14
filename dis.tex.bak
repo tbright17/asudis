@@ -3,7 +3,7 @@
 \usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{afterpage}
-\usepackage{graphicx, caption, epstopdf, multirow,pifot}
+\usepackage{graphicx, caption, epstopdf, multirow}
 \usepackage{amsmath,amssymb,amsbsy}
 \usepackage{dcolumn,array}
 \usepackage{tocloft}
@@ -13,24 +13,22 @@
 \begin{document}
 %-----------------------front matter
 \pagenumbering{roman}
-\title{Your Title Goes Here}
-\author{Your name}
+\title{A computational model for studying L1's effect in L2 learning}
+\author{Ming Tu}
 \degreeName{Doctor of Philosophy}
 \paperType{Dissertation}
-\defensemonth{Some month}
-\defenseyear{Some year}
-\gradmonth{Graduation month}
-\gradyear{Graduation year}
-\chair{Your chair}
-\memberOne{Your first member}
-\memberTwo{Your second member}
-\memberThree{Your third member}
-\memberFour{Your fourth member}
+\defensemonth{August}
+\defenseyear{2018}
+\gradmonth{August}
+\gradyear{2018}
+\memberOne{Dr. Visar Berisha}
+\memberTwo{Dr. Julie Liss}
+\memberThree{Dr. Yi Zhou}
 
 \maketitle
 \doublespace
 \include{abstract}
-\dedicationpage{}
+\dedicationpage{To my parents, my wife and my lovely daughter}
 \include{ack}
 \tableofcontents
 % This puts the word "Page" right justified above everything else.

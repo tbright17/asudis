@@ -1,2 +1,32 @@
 \chapter{Conclusion}
 \label{conclusion}
+
+\section{Main findings}
+
+This dissertation has investigated the L1's effect on L2 learning outcomes using a computational model to analyze accented speech. Motivated by previous findings that L1 can influence phonological system of accented speech in L2, the computational model proposed in this study further validate the statement in a quantitative way by showing how similar the phonological system is with the speaker's L1 phonology. This is achieved by analyzing accented speech in both segmental and suprasegmental feature space macroscopically instead of only looking at one specific phonological phenomenon. Specially, for segmental features, a system for calculating pronunciation scores of phonemes in accented speech from both L1 and L2 acoustic models is proposed to study the pronunciation patterns of accented speech in terms of vowels, consonants and syllables, and compare them to the patterns of native L1 and L2. The pronunciation scores calculated with L1 acoustic model quantify how close the pronunciation of L2 phonemes is to the native pronunciation of the speaker's L1, while the pronunciation scores calculated with l2 acoustic model quantify how close the pronunciation of L2 phonemes is to the native pronunciation of L2. For suprasegmental feature space, speech rhythmic measurements based on durations of vowels, consonants and syllables are calculated by automatic forced-alignment on accented speech. The patterns of native L1 and L2 are also obtained by applying same algorithms on native L1 and L2 speech. Contrastive analysis is done between rhythmic measurements of L1 and accented speech, and L2 and accented speech to quantify the similarity between L1 and accented speech, and L2 and accented speech. Correlation analysis and multiple regression analyses have been conducted on an accented speech dataset consisting of four L1s and 30 speakers from each L1. The findings are summarized as following:
+
+\begin{enumerate}
+\item The overall pronunciation patterns and prosodic patterns of accented speech are affected by L2 learners' L1. On some specific phonological dimensions, the influences of L1 may be significant while on other dimensions the influence may not be significant. The results also indicate that there may exist some universal effects, which are independent from L1, influencing the formation of phonological system of accented speech. For example, for learners speaking a syllable-timed language, the general trend, which is independent from learners' L1s, is going towards more stress-timed learning outcome. The inaccuracy may comes from other factors, such as the difficulty to master specific prosodic properties.
+\item Multiple regression analysis on either segmental or suprasegmental feature space shows that adding contrastive information between L1 and accented speech can improve the perception of accentedness. Selected L1-related features can provide extra information to the perception of accentedness.
+\item The relative contribution of segmental and suprasegmental features to the perception of foreign accent depends on how different L1 is from L2 on corresponding feature spaces.
+\item When applying the proposed computational model to automatic accentedness evaluation system, adding contrastive L1 information can improve the performance of the system.
+\end{enumerate}
+
+
+\section{Future work}
+
+There is extra work can be done to improve the accuracy of the computational model used in this study:
+
+\begin{enumerate}
+\item As mentioned in the dissertation, the accuracy of forced-alignment may affect the accuracy of prosodic measurements. An acoustic model with better performance on accented speech can achieve this.
+\item There should be similar scales for L1-related features extracting from different L1s. More consistent L1 acoustic models should be used to extract pronunciation scores. A method to normalize the L1-related features should also be investigated to further improve the performance on automatic accentedness evaluation when there are speakers from multiple L1s.
+\item When preparing accented speech dataset, a better control of the distribution of accentedness, which means similar number of speakers at different proficiency level, can further improve the persuasiveness of the results.
+\end{enumerate}
+There are several interesting directions based on the current study that deserve further investigation:
+
+\begin{enumerate}
+\item The current study only looks at the overall pronunciation scores of vowels, consonants and syllables. Further investigation on specific phonemes can be done to reveal the L1's effect on specific phonemes, especially for those phonemes that are close to or different from specific L2 phonemes.
+\item This study uses speech rhythmic measurements as proxy of speech prosody. Actually, speech prosody includes other factors such as intonation, stress, tempo and pause. Analysis on those prosodic features can result in more comprehensive understanding of L1's effect on L2 speech prosody acquisition.
+\item More studies on the amount of L1's effect and universal effects should be done to figure out when and where L1's effect plays a role and when and where universal effects play a role.
+\item Applying the methodology to pathological speech is also very intriguing. It can facilitate the study of pathological speech and disease's impact on both segmental and suprasegmental speech features.
+\end{enumerate}
