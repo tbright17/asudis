@@ -1142,5 +1142,15 @@ title = {The Typological Database System}
   pages={1--47},
   year={2007}
 }
+@article{rabiner1989tutorial,
+  title={A tutorial on hidden Markov models and selected applications in speech recognition},
+  author={Rabiner, Lawrence R},
+  journal={Proceedings of the IEEE},
+  volume={77},
+  number={2},
+  pages={257--286},
+  year={1989},
+  publisher={Ieee}
+}
 
 @Comment{jabref-meta: databaseType:bibtex;}
