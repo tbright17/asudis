@@ -3,7 +3,7 @@
 
 \section{Introduction}
 
-Chapter \ref{l1_seg} and \ref{l1_supraseg} test the hypotheses of this study in segmental and suprasegmental phonological spaces (represented by acoustic measurements in corresponding spaces). This chapter will use the knowledge derived from previous chapters, and propose a new scheme for automatic accentedness evaluation system. The system features a novel acoustic feature extraction process, which not only combines both segmental and suprasegmental information but also integrates speakers' L1 information. The way of adding L1 information in this study is also novel in automatic accentedness evaluation literature except for one study. \cite{moustroufas2007automatic} used utterance-level pronunciation scores extracted from both L1 and L2 acoustic models, calculated frame-wise and averaged over the utterance. However, the proposed system has an important difference: the pronunciation scores are calculated on phoneme segments and provide more specific information regarding the accentedness of different phonemic categories. Suprasegmental acoustic measurements representing speech prosody are also included. Furthermore, \cite{moustroufas2007automatic} assume the human evaluator can speak both L1 and L2 and experiments were conducted on only one L1. This study wants to investigate if the L1 acoustic model can help improve prediction even if the human evaluators have no knowledge of the underlying L1.
+This chapter will use the knowledge derived from previous chapters, and propose a new scheme for automatic accentedness evaluation system. The system features a novel acoustic feature extraction process, which not only combines both segmental and suprasegmental information but also integrates speakers' L1 information. The way of adding L1 information in this study is also novel in automatic accentedness evaluation literature except for one study. \cite{moustroufas2007automatic} used utterance-level pronunciation scores extracted from both L1 and L2 acoustic models, calculated frame-wise and averaged over the utterance. However, the proposed system has an important difference: the pronunciation scores are calculated on phoneme segments and provide more specific information regarding the accentedness of different phonemic categories. Suprasegmental acoustic measurements representing speech prosody are also included. Furthermore, \cite{moustroufas2007automatic} assume the human evaluator can speak both L1 and L2 and experiments were conducted on only one L1. This study wants to investigate if the L1 acoustic model can help improve prediction even if the human evaluators have no knowledge of the underlying L1.
 
 To validate the proposed system, the dataset introduced in chapter \ref{sec:methodology} will be employed again to conduct experiments on automatic accentedness evaluation both L1-dependently and L1-independently. Same leave-one-speaker-out CV will be used to evaluate the performance of the system. Finally, possible extensions and improvements over the state-of-the-art systems are discussed.
 
@@ -58,7 +58,7 @@ Table \ref{table:ch6_l1_ind} shows the performance of accentedness score predict
         \centering
         \label{fig:allspk_results}
      \end{figure}
-     
+
 %     \begin{figure}[t]
 %        \begin{minipage}[t]{1.0\linewidth}
 %        \centering
